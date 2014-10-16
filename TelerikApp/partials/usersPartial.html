@@ -6,7 +6,7 @@
        </ion-refresher>
        <ion-list>
            <ion-item ng-repeat="user in users | orderBy: predicate">
-                {{user.DisplayName}}
+               <img data-src="{{user.PictureUrl}}" class="resimgs" /> <span>{{user.DisplayName}}</span>
            </ion-item>
        </ion-list>
    </ion-content>

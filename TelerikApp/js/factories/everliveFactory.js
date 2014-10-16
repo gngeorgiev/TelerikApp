@@ -2,14 +2,11 @@ angular.module('factories')
 
     .factory('$everlive', ['EVERLIVE_API_KEY', '$q', function (EVERLIVE_API_KEY, $q) {
         var service = new Everlive(EVERLIVE_API_KEY);
+        everliveImages.init(EVERLIVE_API_KEY);
         var defaultModelProperties = ['DisplayName', 'Email', 'Picture', 'Username'];
 
         function getImageUrl(imageId) {
             return service.Files.getDownloadUrlById(imageId)
-        }
-
-        function resizeImage(imageUrl) {
-
         }
 
         function buildModels(users, props) {
@@ -21,14 +18,21 @@ angular.module('factories')
 
             props = props || defaultModelProperties;
 
-            users.forEach(function(user) {
+            users.forEach(function(user, index) {
                 newUser = {};
-                currentProperty = props[i];
-                for(;i < props.length; i++) {
+                for(i = 0;i < props.length; i++) {
+                    currentProperty = props[i];
                     newUser[currentProperty] = user[currentProperty];
                 }
 
                 finalUsers.push(newUser);
+
+                getImageUrl(newUser.Picture).then(function (url) {
+                    finalUsers[index].PictureUrl = url;
+                    if(index >= users.length - 1) {
+                        deferred.resolve(finalUsers);
+                    }
+                });
             });
 
             return deferred.promise;
@@ -36,9 +40,9 @@ angular.module('factories')
 
         return {
             service: service,
-            buildModel: buildModel,
+            buildModels: buildModels,
             getImageUrl: getImageUrl,
-            resizeImage: resizeImage
+            images: everliveImages
         };
 
 

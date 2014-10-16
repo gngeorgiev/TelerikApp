@@ -1,0 +1,30 @@
+{
+  "name": "telerik-backend-services-responsive-images",
+  "version": "1.0.0",
+  "main": "build/js/everlive.images.js",
+  "ignore": [
+    ".gitignore",
+    "css",
+    "src",
+    "tasks",
+    "node_modules",
+    "bower_components",
+    "test",
+    "bower.json",
+    "Gruntfile.js",
+    "index.html",
+    "package.json",
+    "README.md"
+  ],
+  "homepage": "https://github.com/telerik/backend-services-responsive-images-client",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "ecd37e0bf0144c82cc2719a1c89e83074729cda2"
+  },
+  "_source": "git://github.com/telerik/backend-services-responsive-images-client.git",
+  "_target": "~1.0.0",
+  "_originalSource": "everlive-responsive",
+  "_direct": true
+}

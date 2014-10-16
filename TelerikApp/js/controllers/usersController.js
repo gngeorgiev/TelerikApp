@@ -1,18 +1,18 @@
 angular.module('controllers')
-    .controller('UsersCtrl', ['$scope', '$everlive',function ($scope, $everlive) {
+    .controller('UsersCtrl', ['$scope', '$everlive', '$timeout', function ($scope, $everlive, $timeout) {
         $scope.users = [];
         $scope.predicate = 'DisplayName';
         $scope.refreshUsers = function () {
-            $everlive.Users.get()
+            $everlive.service.Users.get()
                 .then(function (data) {
-                    $scope.users = data.result;
+                    return $everlive.buildModels(data.result);
+                })
+                .then(function (models) {
+                    $scope.users = models;
                     $scope.$broadcast('scroll.refreshComplete');
-
-                    $everlive.Files.getDownloadUrlById($scope.users[0].Picture)
-                        .then(function(downloadUrl){
-                            document.getElementById('anchor1').href = downloadUrl;
-                        });
-
+                    $timeout(function () {
+                        $everlive.images.responsiveAll();
+                    });
                 });
         };
 
