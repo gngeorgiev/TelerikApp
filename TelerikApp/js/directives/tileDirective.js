@@ -8,6 +8,6 @@ angular.module('directives')
                 scope.color = attrs.color || 'stable';
                 scope.label = (attrs.label || 'empty').toUpperCase();
             },
-            template: '<button class="stretch-height50 stretch-horizontally center-content button button-{{color}}">{{label}}</button>'
+            template: '<a class="stretch-height50 stretch-horizontally center-content button button-{{color}}">{{label}}</a>'
         }
     }]);

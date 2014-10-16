@@ -6,14 +6,15 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta name="viewport"
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi"/>
-    <link rel="stylesheet" type="text/css" href="lib/ionic/release/css/ionic.css"/>
+    <link rel="stylesheet" type="text/css" href="lib/ionic/css/ionic.css"/>
     <link rel="stylesheet" type="text/css" href="lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/index.css"/>
 
 
     <script type="text/javascript" src="lib/everlive/min/everlive.all.min.js"></script>
     <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="lib/ionic/release/js/ionic.bundle.js"></script>
+    <script type="text/javascript" src="lib/ionic/js/ionic.bundle.js"></script>
+    <!--<script src="http://code.ionicframework.com/1.0.0-beta.1/js/ionic.bundle.js"></script>-->
     <script type="text/javascript" src="js/modules.js"></script>
     <script type="text/javascript" src="js/factories/everliveFactory.js"></script>
     <script type="text/javascript" src="js/controllers/homeController.js"></script>
@@ -27,9 +28,8 @@
 
 <body ng-app="telerik.app" ng-controller="RootCtrl" animation="slide-left-right-ios7">
 
-<ion-nav-bar align-title="center" class="bar-positive">
-    <ion-nav-back-button class="button-icon icon  ion-ios7-arrow-back">
-        Back
+<ion-nav-bar align-title="center" class="bar-positive nav-title-slide-ios7">
+    <ion-nav-back-button class="button-icon ion-arrow-left-c">
     </ion-nav-back-button>
 </ion-nav-bar>
 

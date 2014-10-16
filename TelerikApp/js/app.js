@@ -4,16 +4,17 @@ angular.module('telerik.app', ['ionic', 'modules'])
 
     .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
         $stateProvider
+
             .state('home', {
                 url: '/',
-                controller: 'HomeCtrl',
-                templateUrl: 'partials/homePartial.html'
+                templateUrl: 'partials/homePartial.html',
+                controller: 'HomeCtrl'
             })
 
-            .state('home.users', {
+            .state('users', {
                 url: '/users',
-                controller: 'UsersCtrl',
-                templateUrl: 'partials/usersPartial.html'
+                templateUrl: 'partials/usersPartial.html',
+                controller: 'UsersCtrl'
             });
 
         $urlRouterProvider.otherwise('/');

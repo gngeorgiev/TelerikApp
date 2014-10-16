@@ -2,12 +2,183 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b778f831-4c72-4035-a5bc-6682f3546119" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/js/index.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/cordova.android.js" afterPath="$PROJECT_DIR$/TelerikApp/cordova.android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/cordova.ios.js" afterPath="$PROJECT_DIR$/TelerikApp/cordova.ios.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/cordova.wp8.js" afterPath="$PROJECT_DIR$/TelerikApp/cordova.wp8.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/css/index.css" afterPath="$PROJECT_DIR$/TelerikApp/css/index.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/component.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/config/jsdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/config/karma.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/lib/angular-1.1.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/$resolve.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/$templateFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/$urlMatcherFactory.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/UrlMatcher.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/common.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/global.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/resolve.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/scripts/linenumber.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/scripts/prettify/Apache-License-2.0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/scripts/prettify/lang-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/scripts/prettify/prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/styles/jsdoc-default.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/styles/prettify-jsdoc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/styles/prettify-tomorrow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/templateFactory.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/doc/urlMatcherFactory.js.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/contacts.detail.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/contacts.detail.item.edit.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/contacts.detail.item.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/contacts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/contacts.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/contacts.list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/factory.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/states.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/sample/styles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/compat/matchers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/compat/routeParamsSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/compat/routeSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/lib/angular-mocks-1.1.5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/resolveSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/stateDirectivesSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/stateFiltersSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/stateSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/templateFactorySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/testUtils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/urlMatcherFactorySpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/urlRouterSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/test/viewDirectiveSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/docs.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/filters/capital.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/generate-versions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/ignore.words" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/inline-tag-defs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/processors/index-page.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/processors/keywords.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/processors/latest-version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/processors/pages-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/processors/version-data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/tag-defs/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/api.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/componentGroup.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/controller.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/directive.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/filter.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/function.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/object.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/provider.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/service.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/type.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/api/utility.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/index.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/lib/events.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/lib/macros.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/lib/methods.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/lib/properties.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/lib/returns.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/lib/this.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/lib/yaml.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/pages-data.template.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/docs/templates/version-data.template.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/css/ionic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/css/ionic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/fonts/ionicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/fonts/ionicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/fonts/ionicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/fonts/ionicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/js/ionic-angular.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/js/ionic-angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/js/ionic.bundle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/js/ionic.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/js/ionic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/js/ionic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/release/version.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/LICENSE" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/angular-animate.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/angular-sanitize.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.min.js.gzip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/.bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/.bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/.bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/README.md" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/README.md" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_action-sheet.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_action-sheet.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_animations.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_animations.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_badge.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_badge.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_bar.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_button-bar.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_button-bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_button.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_button.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_checkbox.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_checkbox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_form.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_form.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_grid.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-animation.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-animation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-font.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_items.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_items.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_list.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_menu.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_mixins.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_modal.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_platform.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_platform.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_popup.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_popup.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_radio.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_radio.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_range.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_range.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_reset.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_reset.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_scaffolding.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_scaffolding.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_slide-box.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_slide-box.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_split-pane.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_split-pane.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_tabs.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_toggle.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_toggle.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_type.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_type.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_util.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_util.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_variables.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/angular-animate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/angular-animate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular/angular-csp.css" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular/angular-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/angular-sanitize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/angular-sanitize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/js/app.js" afterPath="$PROJECT_DIR$/TelerikApp/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular/bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-animate/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-sanitize/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/bower.json" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/common.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/compat.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/compat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/js/controllers/homeController.js" afterPath="$PROJECT_DIR$/TelerikApp/js/controllers/homeController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/index.html" afterPath="$PROJECT_DIR$/TelerikApp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionic.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionic.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/ionicons.scss" afterPath="$PROJECT_DIR$/TelerikApp/lib/ionic/scss/ionicons/ionicons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/resolve.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/resolve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/state.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/stateDirectives.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/stateFilters.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/templateFactory.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/js/directives/tileDirective.js" afterPath="$PROJECT_DIR$/TelerikApp/js/directives/tileDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/urlRouter.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/partials/usersPartial.html" afterPath="$PROJECT_DIR$/TelerikApp/partials/usersPartial.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/view.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/viewDirective.js" afterPath="$PROJECT_DIR$/TelerikApp/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TelerikApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,41 +201,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TelerikApp/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6666665" vertical-offset="153" max-vertical-offset="828">
-              <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Telerik.App/www/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2454696" vertical-offset="756" max-vertical-offset="1620">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usersPartial.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TelerikApp/partials/usersPartial.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="180">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TelerikApp/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -73,38 +214,48 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Telerik.App/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.481482" vertical-offset="257" max-vertical-offset="864">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="32" selection-end-column="28" />
+            <state vertical-scroll-proportion="-12.481482" vertical-offset="257" max-vertical-offset="864">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homePartial.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TelerikApp/partials/homePartial.html">
+      <file leaf-file-name="tabs.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Telerik.App/www/templates/tabs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="216">
-              <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="594">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tileDirective.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TelerikApp/js/directives/tileDirective.js">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TelerikApp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state vertical-scroll-proportion="-0.04761905" vertical-offset="171" max-vertical-offset="828">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rootController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TelerikApp/js/controllers/rootController.js">
+      <file leaf-file-name=".bowerrc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.bowerrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="162">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="486">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -114,17 +265,27 @@
         <entry file="file://$PROJECT_DIR$/TelerikApp/js/controllers/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usersController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TelerikApp/js/controllers/usersController.js">
+      <file leaf-file-name="homePartial.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TelerikApp/partials/homePartial.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="216">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usersPartial.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TelerikApp/partials/usersPartial.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="144">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -145,15 +306,16 @@
       <list>
         <option value="$PROJECT_DIR$/TelerikApp/partials/home.html" />
         <option value="$PROJECT_DIR$/TelerikApp/js/modules.js" />
-        <option value="$PROJECT_DIR$/TelerikApp/js/directives/tileDirective.js" />
         <option value="$PROJECT_DIR$/TelerikApp/css/index.css" />
         <option value="$PROJECT_DIR$/TelerikApp/js/controllers/rootController.js" />
         <option value="$PROJECT_DIR$/TelerikApp/js/controllers/usersController.js" />
-        <option value="$PROJECT_DIR$/TelerikApp/index.html" />
+        <option value="$PROJECT_DIR$/TelerikApp/js/directives/tileDirective.js" />
+        <option value="$PROJECT_DIR$/TelerikApp/partials/homePartial.html" />
         <option value="$PROJECT_DIR$/TelerikApp/partials/usersPartial.html" />
         <option value="$PROJECT_DIR$/TelerikApp/js/app.js" />
-        <option value="$PROJECT_DIR$/TelerikApp/partials/homePartial.html" />
         <option value="$PROJECT_DIR$/TelerikApp/js/controllers/homeController.js" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/TelerikApp/index.html" />
       </list>
     </option>
   </component>
@@ -237,6 +399,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TelerikApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ionic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,7 +700,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -554,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Telerik.App/www/templates/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TelerikApp/js/modules.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
@@ -586,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TelerikApp/js/controllers/usersController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Telerik.App/www/templates/tab-friends.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
@@ -602,42 +814,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Telerik.App/www/index.html">
+    <entry file="file://$PROJECT_DIR$/TelerikApp/js/directives/tileDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.481482" vertical-offset="257" max-vertical-offset="864">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="32" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TelerikApp/partials/usersPartial.html">
+    <entry file="file://$PROJECT_DIR$/TelerikApp/js/controllers/usersController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="180">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TelerikApp/js/directives/tileDirective.js">
+    <entry file="file://$PROJECT_DIR$/Telerik.App/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="959" max-vertical-offset="1620">
+          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Telerik.App/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.481482" vertical-offset="257" max-vertical-offset="864">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Telerik.App/www/templates/tabs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TelerikApp/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TelerikApp/partials/homePartial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="216">
-          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -645,23 +865,58 @@
     <entry file="file://$PROJECT_DIR$/TelerikApp/js/controllers/homeController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TelerikApp/partials/homePartial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="216">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TelerikApp/partials/usersPartial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="144">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TelerikApp/lib/ionic/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="486">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TelerikApp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6666665" vertical-offset="153" max-vertical-offset="828">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Telerik.App/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2454696" vertical-offset="756" max-vertical-offset="1620">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-0.04761905" vertical-offset="171" max-vertical-offset="828">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
           <folding />
         </state>
       </provider>

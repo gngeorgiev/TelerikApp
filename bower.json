@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "everlive": "~1.2.6",
-    "ionic": "~0.9.27",
-    "bootstrap": "~3.2.0"
+    "bootstrap": "~3.2.0",
+    "ionic": "driftyco/ionic-bower#master"
   }
 }

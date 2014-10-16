@@ -1,3 +1,4 @@
+
 /**
  * Badges
  * --------------------------------------------------
@@ -5,6 +6,7 @@
 
 .badge {
   @include badge-style($badge-default-bg, $badge-default-text);
+  z-index: $z-index-badge;
   display: inline-block;
   padding: 3px 8px;
   min-width: 10px;
