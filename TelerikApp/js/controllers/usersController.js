@@ -8,10 +8,13 @@ angular.module('controllers')
                     return $everlive.buildModels(data.result);
                 })
                 .then(function (models) {
-                    $scope.users = models;
-                    $scope.$broadcast('scroll.refreshComplete');
-                    $timeout(function () {
-                        $everlive.images.responsiveAll();
+                    $scope.$apply(function () {
+                        $scope.users = models;
+                        $timeout(function (){
+                            $everlive.images.responsiveAll();
+                        });
+
+                        $scope.$broadcast('scroll.refreshComplete');
                     });
                 });
         };

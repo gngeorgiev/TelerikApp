@@ -12,6 +12,7 @@ angular.module('factories')
         function buildModels(users, props) {
             var finalUsers = [],
                 i = 0,
+                initializedUsers = 0,
                 newUser,
                 currentProperty,
                 deferred = $q.defer();
@@ -29,7 +30,8 @@ angular.module('factories')
 
                 getImageUrl(newUser.Picture).then(function (url) {
                     finalUsers[index].PictureUrl = url;
-                    if(index >= users.length - 1) {
+                    initializedUsers++;
+                    if(initializedUsers >= users.length) {
                         deferred.resolve(finalUsers);
                     }
                 });

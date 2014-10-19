@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'appbuilder',
+1 verbose cli   '--python',
+1 verbose cli   'v2.5.0' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.31
+4 verbose cache add [ 'appbuilder', null ]
+5 verbose cache add spec="appbuilder" args=["appbuilder",null]
+6 verbose parsed spec { raw: 'appbuilder',
+6 verbose parsed spec   scope: null,
+6 verbose parsed spec   name: 'appbuilder',
+6 verbose parsed spec   rawSpec: '',
+6 verbose parsed spec   spec: '*',
+6 verbose parsed spec   type: 'range' }
+7 verbose cache add [ 'v2.5.0', null ]
+8 verbose cache add spec="v2.5.0" args=["v2.5.0",null]
+9 verbose parsed spec { raw: 'v2.5.0',
+9 verbose parsed spec   scope: null,
+9 verbose parsed spec   name: 'v2.5.0',
+9 verbose parsed spec   rawSpec: '',
+9 verbose parsed spec   spec: '*',
+9 verbose parsed spec   type: 'range' }
+10 verbose parsed spec { raw: 'appbuilder',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'appbuilder',
+10 verbose parsed spec   rawSpec: '',
+10 verbose parsed spec   spec: '*',
+10 verbose parsed spec   type: 'range' }
+11 verbose addNamed [ 'appbuilder', '*' ]
+12 verbose addNamed [ null, '*' ]
+13 verbose parsed spec { raw: 'v2.5.0',
+13 verbose parsed spec   scope: null,
+13 verbose parsed spec   name: 'v2.5.0',
+13 verbose parsed spec   rawSpec: '',
+13 verbose parsed spec   spec: '*',
+13 verbose parsed spec   type: 'range' }
+14 verbose addNamed [ 'v2.5.0', '*' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 152e9b9e-appbuilder appbuilder@*
+17 verbose lock appbuilder@* /root/.npm/152e9b9e-appbuilder.lock
+18 silly lockFile aa1e041c-v2-5-0 v2.5.0@*
+19 verbose lock v2.5.0@* /root/.npm/aa1e041c-v2-5-0.lock
+20 silly addNameRange { name: 'appbuilder', range: '*', hasData: false }
+21 verbose mapToRegistry name appbuilder
+22 verbose mapToRegistry uri https://registry.npmjs.org/appbuilder
+23 silly addNameRange { name: 'v2.5.0', range: '*', hasData: false }
+24 verbose mapToRegistry name v2.5.0
+25 verbose mapToRegistry uri https://registry.npmjs.org/v2.5.0
+26 verbose request on initialization, where is /v2.5.0
+27 verbose request after pass 1, where is /v2.5.0
+28 verbose request url raw /v2.5.0
+29 verbose request resolving registry [ 'https://registry.npmjs.org/', './v2.5.0' ]
+30 verbose request after pass 2, where is https://registry.npmjs.org/v2.5.0
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 23:55:08
+33 verbose request id 4859063fd137aa6d
+34 http request GET https://registry.npmjs.org/v2.5.0
+35 verbose request on initialization, where is /appbuilder
+36 verbose request after pass 1, where is /appbuilder
+37 verbose request url raw /appbuilder
+38 verbose request resolving registry [ 'https://registry.npmjs.org/', './appbuilder' ]
+39 verbose request after pass 2, where is https://registry.npmjs.org/appbuilder
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 23:55:08
+42 verbose etag "8JORFNPO4IH9YN3768XX41O69"
+43 http request GET https://registry.npmjs.org/appbuilder
+44 http 404 https://registry.npmjs.org/v2.5.0
+45 verbose headers { date: 'Thu, 16 Oct 2014 20:55:09 GMT',
+45 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'cache-control': 'max-age=0',
+45 verbose headers   'content-length': '52',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   age: '0',
+45 verbose headers   'x-served-by': 'cache-fra1240-FRA',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1413492909.071535,VS0,VE177',
+45 verbose headers   'keep-alive': 'timeout=10, max=50',
+45 verbose headers   connection: 'Keep-Alive' }
+46 silly registry.get cb [ 404,
+46 silly registry.get   { date: 'Thu, 16 Oct 2014 20:55:09 GMT',
+46 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=0',
+46 silly registry.get     'content-length': '52',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '0',
+46 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+46 silly registry.get     'x-cache': 'MISS',
+46 silly registry.get     'x-cache-hits': '0',
+46 silly registry.get     'x-timer': 'S1413492909.071535,VS0,VE177',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly lockFile aa1e041c-v2-5-0 v2.5.0@*
+48 silly lockFile aa1e041c-v2-5-0 v2.5.0@*
+49 http 304 https://registry.npmjs.org/appbuilder
+50 silly registry.get cb [ 304,
+50 silly registry.get   { date: 'Thu, 16 Oct 2014 20:55:09 GMT',
+50 silly registry.get     server: 'Apache',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     'last-modified': 'Thu, 16 Oct 2014 20:55:09 GMT',
+50 silly registry.get     'cache-control': 'max-age=60',
+50 silly registry.get     etag: '"8JORFNPO4IH9YN3768XX41O69"',
+50 silly registry.get     age: '0',
+50 silly registry.get     'x-served-by': 'cache-fra1243-FRA',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1413492909.081511,VS0,VE721',
+50 silly registry.get     vary: 'Accept',
+50 silly registry.get     'content-length': '0',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 verbose etag https://registry.npmjs.org/appbuilder from cache
+52 silly addNameRange number 2 { name: 'appbuilder', range: '*', hasData: true }
+53 silly addNameRange versions [ 'appbuilder',
+53 silly addNameRange   [ '2.0.0-7',
+53 silly addNameRange     '2.1.0-40',
+53 silly addNameRange     '2.1.1-61',
+53 silly addNameRange     '2.2.0-109',
+53 silly addNameRange     '2.3.0-117',
+53 silly addNameRange     '2.3.1-124',
+53 silly addNameRange     '2.4.0-147',
+53 silly addNameRange     '2.4.1-150',
+53 silly addNameRange     '2.5.0-175',
+53 silly addNameRange     '2.5.1-178' ] ]
+54 verbose addNamed [ 'appbuilder', '2.5.1-178' ]
+55 verbose addNamed [ '2.5.1-178', '2.5.1-178' ]
+56 silly lockFile 5bcb3ab4-appbuilder-2-5-1-178 appbuilder@2.5.1-178
+57 verbose lock appbuilder@2.5.1-178 /root/.npm/5bcb3ab4-appbuilder-2-5-1-178.lock
+58 silly lockFile 5bcb3ab4-appbuilder-2-5-1-178 appbuilder@2.5.1-178
+59 silly lockFile 5bcb3ab4-appbuilder-2-5-1-178 appbuilder@2.5.1-178
+60 silly lockFile 152e9b9e-appbuilder appbuilder@*
+61 silly lockFile 152e9b9e-appbuilder appbuilder@*
+62 verbose stack Error: 404 Not Found: v2.5.0
+62 verbose stack     at RegClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:14)
+62 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
+62 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:236:22)
+62 verbose stack     at Request.emit (events.js:98:17)
+62 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+62 verbose stack     at Request.emit (events.js:117:20)
+62 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+62 verbose stack     at IncomingMessage.emit (events.js:117:20)
+62 verbose stack     at _stream_readable.js:943:16
+62 verbose stack     at process._tickCallback (node.js:419:13)
+63 verbose statusCode 404
+64 verbose pkgid v2.5.0
+65 verbose cwd /home/gngeorgiev/Projects/TelerikApp/TelerikApp
+66 error Linux 3.16.2-1-ARCH
+67 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "appbuilder" "--python" "v2.5.0"
+68 error node v0.10.31
+69 error npm  v2.0.0
+70 error code E404
+71 error 404 Not Found: v2.5.0
+71 error 404
+71 error 404 'v2.5.0' is not in the npm registry.
+71 error 404 You should bug the author to publish it (or use the name yourself!)
+71 error 404
+71 error 404 Note that you can also install from a
+71 error 404 tarball, folder, http url, or git url.
+72 verbose exit [ 1, true ]
