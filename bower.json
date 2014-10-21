@@ -16,6 +16,7 @@
   "dependencies": {
     "everlive": "~1.2.6",
     "ionic": "driftyco/ionic-bower#master",
-    "everlive-responsive": "~1.0.0"
+    "everlive-responsive": "~1.0.0",
+    "angular-mocks": "~1.3.0"
   }
 }
