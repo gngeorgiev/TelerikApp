@@ -1,0 +1,18 @@
+<ion-view title="Activities">
+    <ion-content>
+        <ion-refresher
+                pulling-text="Pull to refresh..."
+                on-refresh="refreshActivities()">
+        </ion-refresher>
+        <ion-list>
+            <ion-item ng-repeat="activity in activities">
+                <div><b>By:</b> {{activity.User.DisplayName}}</div>
+                <img data-src="{{activity.User.PictureUrl}}" class="resimgs" />
+                <div>{{activity.Text}}</div>
+                <div>{{activity.CreatedAt | date: "dd-MMM-yyyy 'at' h:mma"}}</div>
+                <!--TODO: add modal dialog on click-->
+                <div><b>Liked by:</b> {{activity.Likes.length}} people</div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

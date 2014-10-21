@@ -3,19 +3,15 @@ angular.module('controllers')
         $scope.users = [];
         $scope.predicate = 'DisplayName';
         $scope.refreshUsers = function () {
-            $everlive.service.Users.get()
-                .then(function (data) {
-                    return $everlive.buildModels(data.result);
-                })
+            $everlive
+                .getUsers()
                 .then(function (models) {
-                    $scope.$apply(function () {
-                        $scope.users = models;
-                        $timeout(function (){
-                            $everlive.images.responsiveAll();
-                        });
-
+                    $scope.users = models;
+                    $timeout(function (){
+                        $everlive.images.responsiveAll();
                         $scope.$broadcast('scroll.refreshComplete');
                     });
+
                 });
         };
 

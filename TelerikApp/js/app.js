@@ -1,6 +1,11 @@
 angular.module('telerik.app', ['ionic', 'modules'])
 
     .constant('EVERLIVE_API_KEY', 'zOkB1dDKGOUzuPYN')
+    .constant('EVERLIVE_TYPES', {
+        Users: 'Users',
+        Activities: 'Activities',
+        Comments: 'Comments'
+    })
 
     .config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
         $stateProvider
@@ -15,6 +20,12 @@ angular.module('telerik.app', ['ionic', 'modules'])
                 url: '/users',
                 templateUrl: 'partials/usersPartial.html',
                 controller: 'UsersCtrl'
+            })
+
+            .state('activities', {
+                url: '/activities',
+                templateUrl: 'partials/activitiesPartial.html',
+                controller: 'ActivitiesCtrl'
             });
 
         $urlRouterProvider.otherwise('/');
