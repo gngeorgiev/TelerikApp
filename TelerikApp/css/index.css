@@ -31,3 +31,8 @@
 .no-scroll {
     overflow: hidden;
 }
+
+.wrap-text {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
