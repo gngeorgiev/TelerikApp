@@ -34,14 +34,13 @@
     "angular-ui-router": "0.2.10",
     "collide": "1.0.0-beta.3"
   },
-  "_release": "5ce6514f6e",
+  "_release": "6442b5998c",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "5ce6514f6e3ab71407f344e03bcdb68219594ace"
+    "commit": "6442b5998cd3e4caea40a7a72c01490ce033488d"
   },
   "_source": "git://github.com/driftyco/ionic-bower.git",
   "_target": "master",
-  "_originalSource": "driftyco/ionic-bower",
-  "_direct": true
+  "_originalSource": "driftyco/ionic-bower"
 }

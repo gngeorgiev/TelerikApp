@@ -3,3 +3,4 @@
 *.user-settings.xml
 node_modules/*
 TelerikApp/.idea/*
+.idea/*
