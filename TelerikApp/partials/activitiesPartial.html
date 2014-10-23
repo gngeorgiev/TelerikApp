@@ -4,14 +4,19 @@
                 pulling-text="Pull to refresh..."
                 on-refresh="refreshActivities()">
         </ion-refresher>
-        <ion-list>
+        <ion-list class="list-margin-bottom">
             <ion-item ng-repeat="activity in activities">
-                <div><b>By:</b> {{activity.User.DisplayName}}</div>
-                <img data-src="{{activity.User.PictureUrl}}" class="resimgs" />
+                <div><b>By:</b> {{activity.User}}</div>
+                <img ng-src="{{responsiveImage(150, activity.Picture)}}" width="150" height="150"/>
                 <div class="wrap-text">{{activity.Text}}</div>
                 <div>{{activity.CreatedAt | date: "dd-MMM-yyyy 'at' h:mma"}}</div>
-                <!--TODO: add modal dialog on click-->
-                <div><b>Liked by:</b> {{activity.Likes.length}} people</div>
+
+                <div ng-if="activity.Likes.length > 0">
+                    <div><b>Liked by:</b></div>
+                    <div ng-repeat="user in activity.Likes">
+                        {{user}}
+                    </div>
+                </div>
             </ion-item>
         </ion-list>
     </ion-content>

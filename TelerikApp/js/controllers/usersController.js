@@ -1,17 +1,12 @@
 angular.module('controllers')
-    .controller('UsersCtrl', ['$scope', '$everlive', '$timeout', function ($scope, $everlive, $timeout) {
+    .controller('UsersCtrl', ['$scope', '$everlive', function ($scope, $everlive) {
         $scope.users = [];
-        $scope.predicate = 'DisplayName';
         $scope.refreshUsers = function () {
             $everlive
                 .getUsers()
-                .then(function (models) {
-                    $scope.users = models;
-                    $timeout(function (){
-                        $everlive.images.responsiveAll();
-                        $scope.$broadcast('scroll.refreshComplete');
-                    });
-
+                .then(function (users) {
+                    $scope.users = users;
+                    $scope.$broadcast('scroll.refreshComplete');
                 });
         };
 

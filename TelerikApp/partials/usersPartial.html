@@ -4,9 +4,16 @@
                pulling-text="Pull to refresh..."
                on-refresh="refreshUsers()">
        </ion-refresher>
-       <ion-list>
-           <ion-item ng-repeat="user in users | orderBy: predicate">
-               <img data-src="{{user.PictureUrl}}" class="resimgs" /> <span>{{user.DisplayName}}</span>
+       <ion-list class="list-margin-bottom">
+           <ion-item ng-repeat="user in users">
+               <img ng-src="{{responsiveImage(50, user.UserPicture)}}" width="50" height="50"/>
+               <span>{{user.DisplayName}}</span>
+               <div ng-if="user.Liked.length > 0">
+                   <div><b>Liked:</b></div>
+                   <div class="wrap-text" ng-repeat="like in user.Liked">
+                       <div>{{like.Text}} <b>By</b> {{like.Owner}}</div>
+                   </div>
+               </div>
            </ion-item>
        </ion-list>
    </ion-content>
