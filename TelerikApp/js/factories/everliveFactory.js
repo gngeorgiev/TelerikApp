@@ -1,8 +1,47 @@
 angular.module('factories')
-    .factory('$everlive', ['EVERLIVE_API_KEY', '$q', 'EVERLIVE_TYPES', 'EVERLIVE_RESPONSIVE_IMAGE_URL',
-        function (EVERLIVE_API_KEY, $q, EVERLIVE_TYPES, EVERLIVE_RESPONSIVE_IMAGE_URL) {
+    .factory('$everlive', ['EVERLIVE_API_KEY', '$q', 'EVERLIVE_TYPES', 'EVERLIVE_RESPONSIVE_IMAGE_URL', 'EVERLIVE_REQUEST_URL', '$http',
+        function (EVERLIVE_API_KEY, $q, EVERLIVE_TYPES, EVERLIVE_RESPONSIVE_IMAGE_URL, EVERLIVE_REQUEST_URL, $http) {
+
             var service = new Everlive(EVERLIVE_API_KEY);
             everliveImages.init(EVERLIVE_API_KEY);
+
+            function sendEverliveRequest(type, expand, sort, powerFields) {
+                var url = EVERLIVE_REQUEST_URL
+                    .replace('{{0}}', EVERLIVE_API_KEY)
+                    .replace('{{1}}', type),
+                    i = 1,
+                    argument;
+
+                for(; i < arguments.length; i++){
+                    argument = arguments[i];
+                    if(typeof(argument) === 'object') {
+                        arguments[i] = JSON.stringify(argument);
+                    }
+                }
+
+                var headers = {
+                    'Content-type': 'application/json'
+                };
+
+                if(expand) {
+                    headers['X-Everlive-Expand'] = expand;
+                }
+
+                if(sort) {
+                    headers['X-Everlive-Sort'] = sort;
+                }
+
+                if(powerFields) {
+                    headers['X-Everlive-Power-Fields'] = powerFields;
+                }
+
+
+                return $http({
+                    method: 'get',
+                    url: url,
+                    headers: headers
+                });
+            }
 
             function responsiveImage(size, url) {
                 return EVERLIVE_RESPONSIVE_IMAGE_URL
@@ -15,28 +54,47 @@ angular.module('factories')
                 var deferred = $q.defer();
 
                 var expandExpression = {
-                    Liked: {
-                        ReturnAs: 'Liked',
-                        Fields: {
-                            Text: 1,
-                            CreatedBy: 1
-                        }
-                    },
                     Picture: {
                         ReturnAs: 'UserPicture',
                         SingleField: 'Uri'
                     }
                 };
 
-                var query = new Everlive.Query();
-                query.order('DisplayName');
+                var sortExpression = {
+                    DisplayName: 1
+                };
 
-                service.data(EVERLIVE_TYPES.Users)
-                    .expand(expandExpression)
-                    .get(query)
-                    .then(function (data) {
-                        deferred.resolve(data.result);
-                    }, function (err) {
+                var powerFields = {
+                    Liked: {
+                        queryType: 'get',
+                        contentType: 'Activities',
+                        filter: {
+                            Likes: '${Id}'
+                        },
+                        fields: {
+                            Text: 1,
+                            CreatedBy: 1
+                        },
+                        powerFields: {
+                            User: {
+                                queryType: 'get',
+                                contentType: 'Users',
+                                filter: {
+                                    Id: '${CreatedBy}'
+                                },
+                                fields: {
+                                    DisplayName: 1
+                                },
+                                take: 1
+                            }
+                        }
+                    }
+                };
+
+                sendEverliveRequest(EVERLIVE_TYPES.Users, expandExpression, sortExpression, powerFields)
+                    .then(function(response) {
+                        deferred.resolve(response.data.Result);
+                    }, function(err) {
                         deferred.reject(err);
                     });
 
@@ -46,7 +104,7 @@ angular.module('factories')
             function getActivities() {
                 var deferred = $q.defer();
 
-                var expression = {
+                var expandExpression = {
                     CreatedBy: {
                         ReturnAs: 'User',
                         SingleField: 'DisplayName'
@@ -61,15 +119,14 @@ angular.module('factories')
                     }
                 };
 
-                var query = new Everlive.Query();
-                query.order('CreatedAt');
+                var sortExpression = {
+                    CreatedAt: 0
+                };
 
-                service.data(EVERLIVE_TYPES.Activities)
-                    .expand(expression)
-                    .get(query)
-                    .then(function (data) {
-                        deferred.resolve(data.result);
-                    }, function (err) {
+                sendEverliveRequest(EVERLIVE_TYPES.Activities, expandExpression, sortExpression)
+                    .then(function (response) {
+                       deferred.resolve(response.data.Result);
+                    }, function(err) {
                         deferred.reject(err);
                     });
 

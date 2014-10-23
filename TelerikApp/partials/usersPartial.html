@@ -11,7 +11,7 @@
                <div ng-if="user.Liked.length > 0">
                    <div><b>Liked:</b></div>
                    <div class="wrap-text" ng-repeat="like in user.Liked">
-                       <div>{{like.Text}} <b>By</b> {{like.Owner}}</div>
+                       <div>{{like.Text}} <b>By</b> {{like.User[0].DisplayName}}</div>
                    </div>
                </div>
            </ion-item>
