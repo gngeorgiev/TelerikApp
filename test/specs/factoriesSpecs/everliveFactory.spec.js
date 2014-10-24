@@ -29,13 +29,13 @@ describe('Everlive Factory basic tests', function () {
         });
     }
 
-    beforeEach(function () {
+    beforeEach(function (done) {
         module('telerik.app');
         module('factories');
         module(function ($provide) {
             //this key is for a duplicate backend. Its data won't change
             $provide.constant('EVERLIVE_API_KEY', 'FyaQiS9wWMjLWH9l');
-        })
+        });
     });
 
     beforeEach(inject(function (_$httpBackend_, _$everlive_, EVERLIVE_REQUEST_URL, EVERLIVE_API_KEY, EVERLIVE_TYPES) {
